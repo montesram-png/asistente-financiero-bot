@@ -1,4 +1,4 @@
-index.js
+
 import TelegramBot from 'node-telegram-bot-api'; import { createClient } from '@supabase/supabase-js'; import dotenv from 'dotenv';
 
 dotenv.config();
@@ -35,3 +35,4 @@ bot.on('message', async (msg) => {
     bot.sendMessage(chatId, "✅ Guardado en Supabase");
   }
 });
+
