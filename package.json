@@ -1,0 +1,14 @@
+{
+  "name": "asistente-financiero-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+  "@supabase/supabase-js": "^2.96.0",
+  "dotenv": "^17.3.1",
+  "node-telegram-bot-api": "^0.67.0",
+  "express": "^4.18.2"
+}
+}
